@@ -9,6 +9,13 @@ export interface ButtonProps {
     shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
 }
 
+export interface PostProps {
+  id: number;
+  title: string;
+  content: string;
+  userId: number;
+}
+
 export interface PostModalProps {
   isOpen: boolean;
   onClose: () => void;
