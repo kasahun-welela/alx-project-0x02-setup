@@ -7,3 +7,8 @@ export interface PostModalProps {
   onClose: () => void;
   onSubmit: (data: { title: string; content: string }) => void;
 }
+
+export interface ButtonProps {
+  size: string
+  shape: string;
+}
