@@ -8,9 +8,9 @@ function About() {
       <Header />
       <h1>About page</h1>
       <div className="flex gap-4 justify-center items-center">
-        <Button size="sm" shape="rounded-sm" />
-        <Button size="md" shape="rounded-md" />
-        <Button size="lg" shape="rounded-full" />
+        <Button size="small" shape="rounded-sm" />
+        <Button size="medium" shape="rounded-md" />
+        <Button size="large" shape="rounded-full" />
       </div>
     </>
   );
